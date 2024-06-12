@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.section{
+    /* padding-bottom: 20px ; */
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.active{
+    
+}
+.section .container{
+    display: flex;
+    justify-content: space-between;
+}
+.section .container .col1{
+
+}
+.section .container .col1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.section .container .col1 ul{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    color: black;
+    align-items: center;
+    
+}
+.section .container .col1 ul li:hover{
+    border-top: 2px solid rgb(5, 5, 100);
+    /* margin-top: 3px; */
+
+}
+.section .container .col1 ul .active{
+    border-top: 2px solid rgb(5, 5, 100);
+    /* margin-top: 3px */
+    
+    display: block;
+}
+.section .container .col1 ul li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section .container .col1 ul .links ul{
+    display: inline;
+    text-align: left;
+    display: none;
+    position: absolute;
+    top: 80px;
+    line-height: 30px;
+    background: rgb(239, 239, 239);
+    /* padding-right: 30px; */
+    border-top: 3px solid rgb(10, 10, 73);
+    
+}
+.section .container .col1 ul .links ul div{
+    border-bottom: 1px solid grey;
+    padding-right: 60px;
+}
+.section .container .col1 ul .links ul div:hover{
+    background: rgb(255, 255, 255);
+}
+.section .container .col1 ul .links ul li{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.section .container .col1 ul .links ul li:hover{
+    border-top: 0px solid grey;
+}
+.section .container .col1 ul .links{
+    /* padding-bottom: 40px; */
+}
+.section .container .col1 ul .links:hover ul{
+    display: block;
+}
+
+@media(max-width: 991px){
+    .section .container .col1 ul{
+        display: none;
+    }
+}
+
+.section .container .col1 .icon{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.section .container .col1{
+    margin-right: 60px;
+}
+.section .container .col1 li{
+    margin-left: 25px;
+}
+.section .container .col img{
+    width: 80%;
+    margin-top: 10px;
+}
+.section1{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-image: url('sawiro/Lawyer-700x441.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.section1 .col2 h4{
+    font-size: 80px;
+    color: white;
+    padding-top: 250px;
+    text-align: center;
+    
+}
+
+
+.section2{
+    display: flex;
+    padding-top: 60px;
+    
+}
+.section2 .container .row{
+    display: flex;
+    text-align: center;
+    margin: 40px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.section2 .container h4{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.section2 .container .mh{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+
+.section2 .container .col3 h2{
+    text-align: left;
+    font-size: 25px;
+    color: rgba(166, 163, 159, 0.813)
+}
+.section2 .container .col3 p{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(104, 99, 99);
+    
+}
+.section2 .container .col4 img{
+    width: 400px;
+}
+.button{
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+
+    
+}
+.button .btn1{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    width: 151px;
+    height: 52px;
+}
+
+
+
+.button .btn2{
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    width: 151px;
+    height: 52px;
+}
+
+.button .btn2:hover{
+    background-color: blue;
+    
+}
+.button .btn1:hover{
+    background-color: green
+}
+
+.section3{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-image: url('sawiro/home1-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+.row h4 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+ .section3.container.col5 p{
+    text-align: center;
+    font-weight: bold;
+    color:white ;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+.section4{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+    margin: 10px;
+    flex-wrap: 23%;
+    flex-basis: 23%;
+}
+.section4 .container .row{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+} 
+.section4 .container .mh{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+
+
+.container h4{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+
+
+
+.section4 .container .row .col-1{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+   
+}
+
+.section4 .container .row .col-1:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+}
+
+.section4 .container .row .col-2{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.section4 .container .row .col-2:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+}
+
+
+.section4 .container .row .col-3{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.section4 .container .row .col-3:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+    
+
+}
+
+.section4 .container .row .col-4{
+   text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px; 
+    
+}
+.section4 .container .row .col-4:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgba(220, 220, 220, 0.237);
+    transition: .8s;
+   
+
+}
+.section4 .container .row .col-5{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.section4 .container .row .col-5:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+   
+
+}
+.section4 .container .row .col-6{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.section4 .container .row .col-6:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+    
+
+}
+.section4 .container .row .col-7{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 23%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.section4 .container .row .col-7:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+
+
+}
+.section4 .container .row .col-8{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+    flex-basis: 20%;
+    background-color: rgba(220, 220, 220, 0.237);
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.section4 .container .row .col-8:hover{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background-color: rgb(54, 83, 142);
+    transition: .8s;
+
+}
+
+
+.section5{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    
+    
+    
+}
+.section5 .container .row{
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.container h2{
+    font-size: 14px;
+}
+.container p{
+   margin-top: 10px;
+   font-size: 14px;
+   color: rgba(145, 142, 142, 0.985)
+}
+
+
+.section5 .container .mh{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.section5 .container .col-m img{
+    border-radius: 10px;
+}
+.col-a img{
+    border-radius: 10px;
+}
+.col-x img{
+    border-radius: 10px;
+}
+.col-a img{
+    border-radius: 10px;
+}
+.col-m img{
+    border-radius: 10px;
+}
+
+.section6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.section6 .container .mh{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.section6 .container .row {
+    margin: 15px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.col-02 .col-11{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.col-02 .col-12{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.col-02 .col-13{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.section7{
+    background-color: rgb(54, 83, 142);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    border-top: 10px solid rgb(200, 200, 200);
+    
+}
+.section7 .container .row{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.col-20 h2{
+    margin-top: 10px;
+    color: white;
+}
+
+.col-20 p{
+    color: white;
+}
+ .col-21{
+    
+ }
+ .col-21 h5{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size:15px;
+ }
+
+.col-21 ul li a {
+    text-decoration: none;
+    /* padding: 40px; */
+    color: white;
+    /* margin: 10px; */
+
+}
+.col-21  ul li{
+    margin-bottom: 10px;
+}
+
+.col-22 ul li a{
+    text-decoration: none;
+    /* padding: 40px; */
+    color: white;
+    /* margin: 10px; */
+}
+.col-22 h5{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size:15px;
+}
+.col-22  ul li{
+    margin-bottom: 10px;
+}
+.col-23 h2 {
+    font-size: 15px;
+    color: white;
+
+}
+
+.col-m h4{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.col-m p{
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+ 
+.col-1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.col-o h4{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.col-ro{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.col-do h4{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.col0 P{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+.footer{
+    background: rgb(18, 70, 139);
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
